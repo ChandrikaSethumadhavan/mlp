@@ -1,0 +1,4 @@
+pandas
+seaborn
+matplotlib
+#-e . #this is so that setup.py also gets triggered when requirements.txt is installed
