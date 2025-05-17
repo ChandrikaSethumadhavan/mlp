@@ -1,4 +1,6 @@
 pandas
 seaborn
 matplotlib
+numpy
+scikit-learn
 #-e . #this is so that setup.py also gets triggered when requirements.txt is installed

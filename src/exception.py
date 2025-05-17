@@ -1,5 +1,5 @@
 import sys #to control the exceptions                         #refer to python custom exception handling documentation
-import logging
+from src.logger import logging #importing the logger module to log all errors and exceptions into a text file
 
 def error_message_detail(error, error_detail:sys):
     """

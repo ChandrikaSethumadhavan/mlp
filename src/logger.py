@@ -15,6 +15,6 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-if __name__ == "__main__":
-    logging.info("Logging has been configured.")
-    logging.info("This is an info message.")
+# if __name__ == "__main__":   #for testing the logger
+#     logging.info("Logging has been configured.")
+#     logging.info("This is an info message.")
