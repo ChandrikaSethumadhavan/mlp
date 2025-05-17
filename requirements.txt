@@ -3,4 +3,6 @@ seaborn
 matplotlib
 numpy
 scikit-learn
+catboost
+xgboost
 #-e . #this is so that setup.py also gets triggered when requirements.txt is installed
