@@ -5,4 +5,5 @@ numpy
 scikit-learn
 catboost
 xgboost
+dill
 #-e . #this is so that setup.py also gets triggered when requirements.txt is installed
