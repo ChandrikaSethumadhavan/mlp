@@ -32,7 +32,7 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param): #param again i
             model = list(models.values())[i]
             para=param[list(models.keys())[i]]
 
-            gs = GridSearchCV(model,para,cv=3)  #apply gridsearchcv for hyperparameter tuning on the parameter
+            gs = GridSearchCV(model,para,cv=3)  #apply gridsearchcv for hyperparameter tuning on the
             gs.fit(X_train,y_train)
 
             model.set_params(**gs.best_params_)
