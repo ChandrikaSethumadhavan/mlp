@@ -33,3 +33,6 @@ def predict_datapoint():
 if __name__ == "__main__":
     app.run(host="0.0.0.0",port=5000) #run the app 
  #debug =True has been removed to avoid the error of "werkzeug" not being able to be imported and it is not needed in the production environment
+
+
+#this is the updated code for ci cd pipeline to work so second push to git
