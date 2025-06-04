@@ -102,6 +102,7 @@ A/N : The html UI does not look so great yet but it is a steep learning curve xD
 **6.2: AWS Cloud: For deployment with CI/CD pipelines in the AWS Management Console.**:
 
 Deployed the trained machine learning model to the AWS Management Console Cloud to make it available for real-time predictions. I set up Continuous Integration and Continuous Deployment (CI/CD) pipelines to automate the entire deployment process, which helped me seamlessly integrate and deploy updates directly from my Github repo to the model or application without manual intervention.
+Caution : Handle the AWS management console with care. If your project is done under a student account, there would be costs incurred even on a student account despite the account name beimg "Free trial". Once experience gained after deployment, revoke access to all the running sources and delete them. To know all the currently running resources, open tag editor on aws and select all regions and all running resources to see all the current running resources. The billing section shows the exact services that are incurring costs, make sure to turn off or delete that particular service and avoid accidental charges on your account. After everything is cleared on tag editor, terminate account. Closing your account without deleting the running services will still incur costs and the sources will keep running.
 
 ![image](https://github.com/user-attachments/assets/556b7a80-5690-412f-9947-faee4d7e95d8)
 
